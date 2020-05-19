@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Estudando jquery</title>
 </head>
 <body>
 <div class="jquery_essentials">#BoraProgramar!</div>
