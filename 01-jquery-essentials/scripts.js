@@ -6,6 +6,7 @@ $(function () {
     console.info("o jQuery foi carrefado com sucesso!");
     console.warn("um aleta");
     console.error("um erro");
+    console.error("um erro");
     console.groupEnd();
 
     var cadastro = false;
