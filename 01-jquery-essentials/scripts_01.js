@@ -20,5 +20,5 @@
 // });
 
 $(function(){
-$(".jquery_essentials").html("jquery essentials")
+$(".jquery_essentials").html("jquery essentials!!!")
 });
