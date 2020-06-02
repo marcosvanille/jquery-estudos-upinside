@@ -17,7 +17,7 @@ $(function () {
     if (cadastro === true) {
         console.log("cadastro Realizado");
     } else {
-        console.warn("Erro ao cadastrar");
+        console.warn("Erro ao cadastrar!");
     }
     console.groupEnd();
 
