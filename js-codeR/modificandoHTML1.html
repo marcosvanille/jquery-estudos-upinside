@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/node_modules/jquery/dist/jquery.js"></script>
+    <style>
+        body {
+            background-color: cadetblue
+        }
+    </style>
+</head>
+<body class="contando exercicio">
+<h1>Modificando HTML #01</h1>
+<div id="conteudo1"></div>
+<div id="conteudo2"></div>
+<div id="conteudo3"></div>
+
+<script>
+    //conteudo 1
+    $('#conteudo1').append('<p>1</p>')
+
+    //conteudo2
+    const elementos = [
+        $('<li>').append('arroz'),
+        $('<li>').append('feijao'),
+        $('<li>').append('carne')
+    ]
+    const lista = $('<ul><li>Sorvete</li></ul>').prepend(elementos)  // O prepend ele e acionado antes do append
+    $('#conteudo2').append(lista)
+
+</script>
+</body>
+</html>
